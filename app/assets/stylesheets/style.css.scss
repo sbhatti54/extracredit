@@ -40,9 +40,18 @@ body{
   background-repeat: repeat-x;
 }
 
+
+
 .navbar .nav > li > a {
-	color: #fff;
+	color: #fff !important;
 }
+
+
+.navbar .nav li  a:hover {
+	background-color: #2f3640 !important;
+	text-decoration: none;
+}
+
 
 .navbar:hover .nav > li > a {
 	background-color: -moz-linear-gradient(top, #1199c1, #107999);
@@ -72,6 +81,7 @@ body{
 
 .footer{
     margin-top: 50px;
+    padding-left: 15px;
     color: $grayLight;
     a{
         color: $gray;
@@ -143,6 +153,7 @@ tr a:link{
 
 tr a:hover{
   color: #fff;
+  text-decoration: none;
 }
 
 ul li{
