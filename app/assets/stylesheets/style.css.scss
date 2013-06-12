@@ -121,6 +121,7 @@ span.title{
 input{
 	height: 30px !important;
 	margin-top: 2px;
+	display: block;
 }
 
 
@@ -221,6 +222,12 @@ h2#paragraph{
 	line-height: 1em;
 }
 
+label{
+	display: block;
+}
+
+
+
 #myModal, #myModal2, #myModal3, #myModal4 {
 	height: auto;
 	overflow: hidden;
@@ -228,12 +235,16 @@ h2#paragraph{
 	width: 600px;
 }
 
+#googlemap{
+	padding: 15px;
+}
 
-#myModal5, #myModal6, #myModal7, #myModal1{
-	height: auto;
-	overflow: hidden;
-	display: inline;
-	width: 270px !important;
+.btn3{
+	border-radius: 0px;
+}
+
+a:hover{
+	text-decoration: none;
 }
 
 p{
@@ -260,3 +271,26 @@ select{
 	margin-top: 5px;
 }
 
+form#buynow{
+	display: inline-table;
+}
+
+@media (max-width: 480px) {
+#myModal5, #myModal6, #myModal7, #myModal1{
+	height: auto;
+	overflow: hidden;
+	display: inline;
+	width: 270px !important;
+}
+
+#modal a{
+	display: block;
+	padding: 5px;
+}
+
+form#buy-now{
+	 display: inline-block;
+  	
+}
+
+}
