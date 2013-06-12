@@ -102,6 +102,7 @@ input{
   width: 240px;
   border: solid 5px white;
   -webkit-box-shadow: 0 0 10px #444;
+  text-align: center;
 }
 
 ul.thumbnail-mobile {
@@ -123,6 +124,10 @@ ul.thumbnails li {
   clear: right; 
 }
 
+ul.thumbnails li a{
+ text-decoration: none; 
+}
+
 .btn1{
 	border-radius: 0px;
 	text-align: left;
@@ -130,6 +135,28 @@ ul.thumbnails li {
 	height: 50px;
 }
 
+
+
+tr a:link{
+  color: #fff;
+}
+
+tr a:hover{
+  color: #fff;
+}
+
+ul li{
+  -webkit-appearance: none;
+}
+
+
 ul.pull-right{
 	margin-top: 8px !important;
+}
+
+i.home{
+	float: right;
+	font-size: 1.5em;
+	padding-right: 5px;
+	font-weight: bold;
 }
