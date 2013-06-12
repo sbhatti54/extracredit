@@ -4,6 +4,7 @@ Extracredit::Application.routes.draw do
   get 'products' => 'pages#products'
   get 'buy' => 'pages#buy'
   get 'store' => 'pages#store'
+  get 'checkout' => 'pages#checkout'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

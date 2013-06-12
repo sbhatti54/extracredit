@@ -222,8 +222,20 @@ h2#paragraph{
 	line-height: 1em;
 }
 
+h2#subtitle{
+	font-size: 1em;
+}
+
 label{
-	display: block;
+	display: inline;
+	font-size: 1em;
+}
+
+.btn4{
+	border-radius: 0px;
+	width: 50%;
+	color: #fff;
+	height: 43px;
 }
 
 
@@ -275,6 +287,29 @@ form#buynow{
 	display: inline-table;
 }
 
+ input[type="text"], input#lname, input#fname, input#zip, input#address, input#mdn{
+	width: 80%;
+	border-radius: 0px;
+	height: 43px;
+}
+
+select#state-list{
+	width: 80%;
+	border-radius: 0px;
+	height: 33px;
+}
+
+.btn-submit{
+	border-radius: 0px;
+	height: 40px;
+}
+
+form#signin{
+	margin-top: -60px;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+
 @media (max-width: 480px) {
 #myModal5, #myModal6, #myModal7, #myModal1{
 	height: auto;
@@ -291,6 +326,10 @@ form#buynow{
 form#buy-now{
 	 display: inline-block;
   	
+}
+
+h2#subtitle{
+	line-height: 1em;
 }
 
 }
