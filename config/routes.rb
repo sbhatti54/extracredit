@@ -2,6 +2,8 @@ Extracredit::Application.routes.draw do
   root :to => 'pages#home'
   get 'about' => 'pages#about'
   get 'products' => 'pages#products'
+  get 'buy' => 'pages#buy'
+  get 'store' => 'pages#store'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

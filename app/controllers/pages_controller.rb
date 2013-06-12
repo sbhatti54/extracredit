@@ -7,5 +7,10 @@ class PagesController < ApplicationController
 
   def products
   end
-  
+
+  def buy
+  end
+
+  def store
+  end
 end
