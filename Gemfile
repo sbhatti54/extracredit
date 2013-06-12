@@ -14,9 +14,11 @@ group :assets do
   gem 'bootstrap-sass', '~> 2.2.2.0'
 end
 
-group :development do
+group :development, :test do 
   gem 'sqlite3'
 end
+
+gem 'pg'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
