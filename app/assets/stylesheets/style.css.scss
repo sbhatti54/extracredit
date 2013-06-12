@@ -92,3 +92,40 @@ input{
 #myCarousel{
 	margin-top: 90px;
 }
+
+
+.thumbnail {
+  display: inline-block;
+  background-color: white;
+  -webkit-border-radius: 0px;
+  height: auto;
+  width: 240px;
+  border: solid 5px white;
+  -webkit-box-shadow: 0 0 10px #444;
+}
+
+ul.thumbnail-mobile {
+  background-color: white;
+  -webkit-border-radius: 0px;
+  height: auto;
+  float: left;
+}
+
+ul.thumbnails {
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+ul.thumbnails li {
+  margin: 3px;
+  width: 45%;
+  float: left;
+  clear: right; 
+}
+
+.btn1{
+	border-radius: 0px;
+	text-align: left;
+	padding-left: 5px;
+	height: 50px;
+}
