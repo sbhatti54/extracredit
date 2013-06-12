@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
   def checkout
   end
+
+  def workingdead
+  end
 end
