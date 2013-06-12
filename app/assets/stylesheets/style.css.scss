@@ -306,12 +306,28 @@ select#state-list{
 	height: 40px;
 }
 
+.btn-go{
+	border-radius: 0px;
+	height: 40px;
+	width: 50%;
+}
+
+
 form#signin{
 	margin-top: -60px;
 	padding-left: 10px;
 	margin-left: 20px;
 }
 
+ input[type="text"], input#address1, input#zip1{
+	width: 50%;
+	border-radius: 0px;
+	height: 43px;
+}
+
+select#miles{
+	width: 50%;
+}
 
 label#label{
 	font-size: 1em;
@@ -342,6 +358,16 @@ h2#subtitle{
 	width: 100%;
 	border-radius: 0px;
 	height: 43px;
+}
+
+select#miles{
+	width: 100%;
+}
+
+.btn-go{
+	border-radius: 0px;
+	height: 40px;
+	width: 100%;
 }
 
 }
