@@ -1,0 +1,32 @@
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+ 
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+ 
+      <!-- Be sure to leave the brand out there if you want it shown -->
+         <a class="brand" href="/"><span class="Title"><img src="/img/solixirlogo.png" width="20">&nbsp;&nbsp;Solixir</span></a>
+
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+        <ul class="nav pull-left">
+           <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Products", about_path %></li>
+            <li><%= link_to "Buy", about_path %></li>
+            <li><%= link_to "Find a Store", about_path %></li>
+        </ul>
+        <ul class="nav pull-right">
+           <form class="navbar-search pull-left">
+              <input type="text" class="search-query" placeholder="Search">
+              <button class="btn btn-primary">Go</button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
